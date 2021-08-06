@@ -2,9 +2,12 @@ CFLAGS = -O2 -I. -I/usr/include/tcl -I/usr/include/tk
 OBJ = tklib.o main.o
 
 T = VPNetwork
-all: $T
+
+all: 	$T 
 $T:	$(OBJ)
 	$(CC) -o $@ $(OBJ)
+
+install:  $(shell sh requirements.sh)
 
 clean:
 	rm -f $T $(OBJ)
