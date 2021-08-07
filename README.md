@@ -1,2 +1,2 @@
 # VPNetwork-Macos
-VPNnetwork Application for macOS GUI
+VPNetwork Application for macOS GUI
