@@ -14,5 +14,4 @@ int main(){
 
 void run(void){
     system("wish Tk.tcl");
-    remove("Tk.tcl");
 }
