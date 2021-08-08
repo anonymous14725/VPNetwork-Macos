@@ -1,7 +1,7 @@
 # VPNetwork-Macos
 VPNetwork Application for macOS GUI
 
-![ali text](https://github.com/anonymous14725/VPNetwork-Macos/blob/main/Screenshot%20VPNetwork.jpg)
+![text](https://github.com/anonymous14725/VPNetwork-Macos/blob/main/Screenshot%20VPNetwork.jpg)
 
 ## What is VPNetwork?
 VPNetwork is a program built to connect to VPN (Virtual Private Network) and some operating systems such as Android, Windows and now MacOS.
