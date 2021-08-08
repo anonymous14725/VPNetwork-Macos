@@ -1,5 +1,5 @@
 proc connect {} {
-	if { [catch { exec macosvpn create --l2tp Connection --endpoint public-vpn-74.opengw.net --username vpn --password vpn --sharedsecret vpn } msg] } {
+	if { [catch { exec macosvpn create --l2tp Connection --endpoint public-vpn-180.opengw.net --username vpn --password vpn --sharedsecret vpn } msg] } {
 		puts "Connecting.."
 	}
 	exec networksetup -connectpppoeservice Connection
