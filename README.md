@@ -15,7 +15,7 @@ $ cd VPNetwork-Macos
 $ make
 ```
 ## Run Application
-To run the program, you must use the following commands to access the root:
+- To run the program, you must use the following commands to access the root:
 ```
 $ sudo ./VPNetwork
 ```
