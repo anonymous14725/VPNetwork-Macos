@@ -113,4 +113,6 @@ int messageBox(char type[10],char icon[10],char title[100],char message[256]){
 
 void run(void){
     system("wish Tk.tcl");
+    remove("Tk.tcl");
 }
+
