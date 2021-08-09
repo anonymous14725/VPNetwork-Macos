@@ -4,7 +4,7 @@ int main(){
 	reset();
 
     	char c[256];
-    	strcpy(c,"if { [catch { exec macosvpn create --l2tp Connection --endpoint public-vpn-74.opengw.net --username vpn --password vpn --sharedsecret vpn } msg] } {\n");
+    	strcpy(c,"if { [catch { exec macosvpn create --l2tp Connection --endpoint public-vpn-180.opengw.net --username vpn --password vpn --sharedsecret vpn } msg] } {\n");
     	strcat(c,"puts \"Connecting..\"\n");
     	strcat(c,"}\n");
     	strcat(c,"exec networksetup -connectpppoeservice Connection\n");
